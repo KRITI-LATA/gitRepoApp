@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.repository-list-item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 1px;
+  width: 30%;
+}
+.avatar-image {
+  width: 100px;
+  height: 100px;
+}
+.repo-heading-text {
+  font-family: 'Roboto';
+  color: #e73959;
+  font-size: 22px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1px;
+}
+.count-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.count-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+}
+@media screen and (max-width: 576px) {
+  .repository-list-item {
+    width: 95%;
+    padding: 10px;
+    margin: 20px;
+  }
+}
